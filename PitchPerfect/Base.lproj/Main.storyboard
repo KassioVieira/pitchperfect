@@ -91,7 +91,7 @@
                                                     <action selector="playSoundForButton:" destination="Qf3-zr-gDh" eventType="touchUpInside" id="06z-WM-Fwn"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwH-Ak-OdN" userLabel="Fast Button">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwH-Ak-OdN" userLabel="Fast Button">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="228.5"/>
                                                 <state key="normal" image="Fast"/>
                                                 <connections>
@@ -103,14 +103,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Qfx-Qd-L7D">
                                         <rect key="frame" x="0.0" y="228.5" width="382" height="229"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qS-eg-MzK" userLabel="High Pitch Button">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qS-eg-MzK" userLabel="High Pitch Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="229"/>
                                                 <state key="normal" image="HighPitch"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Qf3-zr-gDh" eventType="touchUpInside" id="KFm-OW-dOP"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phQ-mD-LcU" userLabel="Low Pitch Button">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="phQ-mD-LcU" userLabel="Low Pitch Button">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="229"/>
                                                 <state key="normal" image="LowPitch"/>
                                                 <connections>
@@ -122,14 +122,14 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="q6f-3b-HwM">
                                         <rect key="frame" x="0.0" y="457.5" width="382" height="228.5"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Dn-g2-PAY" userLabel="Echo Button">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Dn-g2-PAY" userLabel="Echo Button">
                                                 <rect key="frame" x="0.0" y="0.0" width="191" height="228.5"/>
                                                 <state key="normal" image="Echo"/>
                                                 <connections>
                                                     <action selector="playSoundForButton:" destination="Qf3-zr-gDh" eventType="touchUpInside" id="FH9-CY-hdg"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fq8-9U-k4F" userLabel="Reverb Button">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fq8-9U-k4F" userLabel="Reverb Button">
                                                 <rect key="frame" x="191" y="0.0" width="191" height="228.5"/>
                                                 <state key="normal" image="Reverb"/>
                                                 <connections>
